@@ -13,3 +13,4 @@ dependencies:
   - responsive_image
   - user
   - views
+core_incompatible: false
