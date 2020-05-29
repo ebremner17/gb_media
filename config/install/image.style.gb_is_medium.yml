@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.gb_crop_medium
+  module:
+    - crop
+name: gb_is_medium
+label: Medium
+effects:
+  2698db52-67b3-4a73-a11a-92bedfe84e4f:
+    uuid: 2698db52-67b3-4a73-a11a-92bedfe84e4f
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: gb_crop_medium

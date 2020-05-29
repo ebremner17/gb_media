@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.gb_crop_large
+  module:
+    - crop
+name: gb_is_large
+label: Large
+effects:
+  d35a999b-3b40-4710-9a05-c0a1ea31809b:
+    uuid: d35a999b-3b40-4710-9a05-c0a1ea31809b
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: gb_crop_large

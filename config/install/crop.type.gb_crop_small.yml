@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: gb_crop_small
+label: Small
+description: 'Crop for small'
+aspect_ratio: '450:250'
+soft_limit_width: 450
+soft_limit_height: 250
+hard_limit_width: null
+hard_limit_height: null

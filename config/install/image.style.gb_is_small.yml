@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.gb_crop_small
+  module:
+    - crop
+name: gb_is_small
+label: Small
+effects:
+  14f0fac4-6914-4629-8da3-b1b0965706b1:
+    uuid: 14f0fac4-6914-4629-8da3-b1b0965706b1
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: gb_crop_small

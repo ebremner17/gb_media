@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.gb_crop_extra_large
+  module:
+    - crop
+name: gb_is_extra_large
+label: 'Extra large'
+effects:
+  fd071d2a-bf3b-47e2-92fd-5364aba7baf7:
+    uuid: fd071d2a-bf3b-47e2-92fd-5364aba7baf7
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: gb_crop_extra_large

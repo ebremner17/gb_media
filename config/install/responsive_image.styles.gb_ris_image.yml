@@ -1,0 +1,35 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.gb_is_extra_large
+    - image.style.gb_is_large
+    - image.style.gb_is_medium
+    - image.style.gb_is_small
+  theme:
+    - griffin_brothers_theme
+id: gb_ris_image
+label: Image
+image_style_mappings:
+  -
+    breakpoint_id: griffin_brothers_theme.xlarge
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: gb_is_extra_large
+  -
+    breakpoint_id: griffin_brothers_theme.large
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: gb_is_large
+  -
+    breakpoint_id: griffin_brothers_theme.medium
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: gb_is_medium
+  -
+    breakpoint_id: griffin_brothers_theme.small
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: gb_is_small
+breakpoint_group: griffin_brothers_theme
+fallback_image_style: gb_is_large

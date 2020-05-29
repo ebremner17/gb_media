@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: gb_crop_large
+label: Large
+description: 'Crop for large'
+aspect_ratio: '1024:400'
+soft_limit_width: 1024
+soft_limit_height: 400
+hard_limit_width: null
+hard_limit_height: null
