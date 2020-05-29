@@ -6,8 +6,6 @@ dependencies:
     - image.style.gb_is_large
     - image.style.gb_is_medium
     - image.style.gb_is_small
-  theme:
-    - griffin_brothers_theme
 id: gb_ris_image
 label: Image
 image_style_mappings:
