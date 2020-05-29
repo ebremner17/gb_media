@@ -12,5 +12,7 @@ dependencies:
   - media
   - responsive_image
   - user
+  - video_embed_field
+  - video_embed_media
   - views
 core_incompatible: false

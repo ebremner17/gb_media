@@ -1,0 +1,29 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.gb_mt_spotify.field_media_video_embed_field
+    - media.type.gb_mt_spotify
+  module:
+    - video_embed_field
+id: media.gb_mt_spotify.default
+targetEntityType: media
+bundle: gb_mt_spotify
+mode: default
+content:
+  field_media_video_embed_field:
+    label: visually_hidden
+    weight: 0
+    settings:
+      responsive: true
+      width: 854
+      height: 480
+      autoplay: true
+    third_party_settings: {  }
+    type: video_embed_field_video
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true

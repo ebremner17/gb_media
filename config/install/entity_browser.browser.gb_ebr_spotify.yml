@@ -1,0 +1,41 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.eb_view_ebr_spotify
+  module:
+    - entity_browser_entity_form
+    - views
+name: gb_ebr_spotify
+label: Spotify
+display: modal
+display_configuration:
+  width: '650'
+  height: '500'
+  link_text: 'Select entities'
+  auto_open: false
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  cc79de51-6dd4-4425-a54b-90fe2aa66771:
+    settings:
+      entity_type: media
+      bundle: gb_mt_spotify
+      form_mode: default
+      submit_text: 'Save spotify'
+    uuid: cc79de51-6dd4-4425-a54b-90fe2aa66771
+    weight: 1
+    label: Upload
+    id: entity_form
+  7c47ee3c-fd27-4496-a6f0-cda7646202b6:
+    settings:
+      view: eb_view_ebr_spotify
+      view_display: entity_browser_1
+      submit_text: 'Select spotify'
+      auto_select: false
+    uuid: 7c47ee3c-fd27-4496-a6f0-cda7646202b6
+    weight: 2
+    label: Existing
+    id: view
